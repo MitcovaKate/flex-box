@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    
+}
+.navbar{
+    background-color: bisque;
+}
+a{
+    text-decoration: none;
+    
+    color: #999;
+}
+.brand{
+    font-family: 'Mulish', sans-serif;
+    display: inline-block;
+}
+h2,h3{
+    text-shadow: #FC0 1px 0 10px;
+    margin: 0;
+}
+
+.human{ 
+width: 6em;
+height: 6em;
+overflow: visible;  
+}
+ .human-path{
+fill: none;
+stroke:firebrick;
+stroke-width: 1px;
+transition:all 1s ease-in-out;
+ stroke-dasharray: 7.2em;
+stroke-dashoffset:7.2em; 
+}
+.human:hover .human-path{
+    stroke-dashoffset: 0;
+}  
+/* .up-level{
+    width: 100px;
+    height: 100px;
+} */
